@@ -5,11 +5,11 @@ import { Code2, LogIn } from 'lucide-react'
 
 export default function NavBar() {
     return (
-        <div className='container'>
-            <Navbar fluid rounded className='border-b border-border'>
+        <div className='container border-b border-border'>
+            <Navbar fluid rounded>
                 <Navbar.Brand href='/'>
                     <Code2 className='mr-2 h-6 sm:h-9' />
-                    <span className='self-center whitespace-nowrap text-xl font-semibold'>Flowbite React</span>
+                    <span className='self-center whitespace-nowrap text-xl font-semibold'>Dazh</span>
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
