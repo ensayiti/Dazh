@@ -1,8 +1,10 @@
+import { Foot } from "@/components/footer";
 import { MainNav } from "@/components/main-nav";
 import { Overview } from "@/components/overview";
+import { RecentSales } from "@/components/recent-sales";
 import { Search } from "@/components/search";
 import TeamSwitcher from "@/components/team-switcher";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent } from "@/components/ui/tabs";
 import { UserNav } from "@/components/user-nav";
 import { Metadata } from "next";
@@ -31,7 +33,7 @@ export default function Dashboard() {
                         <h2 className="text-3xl font-bold tracking-tight text-primary-foreground">Dashboard</h2>
                     </div>
                 </div>
-                <Tabs defaultValue="overview" className="space-y-4 container">
+                <Tabs defaultValue="overview" className="space-y-4 mb-4 container">
                     <TabsContent value="overview" className="space-y-4">
                         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
                             <Card>
@@ -93,9 +95,19 @@ export default function Dashboard() {
                                     <Overview />
                                 </CardContent>
                             </Card>
+                            <Card className="col-span-3">
+                                <CardHeader>
+                                    <CardTitle>Recent Sales</CardTitle>
+                                    <CardDescription>You made 265 sales this month</CardDescription>
+                                </CardHeader>
+                                <CardContent>
+                                    <RecentSales />
+                                </CardContent>
+                            </Card>
                         </div>
                     </TabsContent>
                 </Tabs>
+                <Foot />
             </div>
         </>
     )
