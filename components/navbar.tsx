@@ -13,8 +13,8 @@ export default function NavBar() {
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
-                    <Navbar.Link href='#'>
-                        <p className='text-primary hover:text-muted-foreground transition duration-300'>Home</p>
+                    <Navbar.Link href='#feature'>
+                        <p className='text-primary hover:text-muted-foreground transition duration-300'>Feature</p>
                     </Navbar.Link>
                     <Navbar.Link href="#">
                         <p className='text-primary hover:text-muted-foreground transition duration-300'>About</p>
