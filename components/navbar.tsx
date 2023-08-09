@@ -16,15 +16,6 @@ export default function NavBar() {
                     <Navbar.Link href='#feature'>
                         <p className='text-primary hover:text-muted-foreground transition duration-300'>Feature</p>
                     </Navbar.Link>
-                    <Navbar.Link href="#">
-                        <p className='text-primary hover:text-muted-foreground transition duration-300'>About</p>
-                    </Navbar.Link>
-                    <Navbar.Link href="#">
-                        <p className='text-primary hover:text-muted-foreground transition duration-300'>Services</p>
-                    </Navbar.Link>
-                    <Navbar.Link href="#">
-                        <p className='text-primary hover:text-muted-foreground transition duration-300'>Pricing</p>
-                    </Navbar.Link>
                     <Navbar.Link href="/sign-in">
                         <p className='text-primary hover:text-muted-foreground transition duration-300'>Login <LogIn className='inline-flex' /></p>
                     </Navbar.Link>

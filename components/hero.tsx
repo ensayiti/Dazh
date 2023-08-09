@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export function Hero() {
     return (
-        <section className="border-b border-border">
+        <section className="border-b-2 border-muted-foreground">
             <div className="py-16 px-4 mx-auto max-w-screen-xl text-center lg:py-32 lg:px-12">
                 <a href="#" className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-secondary bg-primary rounded-full" role="alert">
                     <span className="text-xs bg-primary-foreground rounded-full text-primary px-4 py-1.5 mr-3">New</span> <span className="text-sm font-medium">Dazh is out! Feel the different</span>
