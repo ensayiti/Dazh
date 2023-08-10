@@ -5,7 +5,7 @@ export function Feature() {
         <section className="bg-foreground" id="feature">
             <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <div className="mx-auto max-w-screen-lg mb-8 lg:mb-8">
-                    <h1 className="text-primary-foreground flex justify-center items-center mb-4 text-4xl tracking-tight font-semibold">Designed for <span className="font-extrabold ml-2">Aesthetic</span></h1>
+                    <h1 className="text-primary-foreground flex justify-center items-center mb-4 text-3xl md:text-4xl tracking-tight font-semibold">Designed for <span className="font-extrabold ml-2">Aesthetic</span></h1>
                 </div>
                 <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
                     <div className="bg-card rounded-lg p-3 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-300">
