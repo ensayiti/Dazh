@@ -1,9 +1,6 @@
 import { Foot } from "@/components/footer";
-import { MainNav } from "@/components/main-nav";
 import { Overview } from "@/components/overview";
 import { RecentSales } from "@/components/recent-sales";
-import { Search } from "@/components/search";
-import TeamSwitcher from "@/components/team-switcher";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent } from "@/components/ui/tabs";
 import { UserNav } from "@/components/user-nav";
@@ -27,17 +24,17 @@ export default function Dashboard() {
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                             </label>
                         </div>
-                        <div className="flex-1 px-2 mx-2">Dazh</div>
+                        <div className="flex-1 px-2 mx-2 font-semibold">Dazh</div>
                         <div className="flex-none hidden lg:block">
-                            <ul className="menu menu-horizontal space-x-2 bg-secondary-foreground text-primary-foreground rounded-box">
-                                <li className="hover:bg-primary-foreground rounded-full transition-all duration-300"><a>Overview</a></li>
-                                <li className="hover:bg-primary-foreground rounded-full transition-all duration-300"><a>Products</a></li>
-                                <li className="hover:bg-primary-foreground rounded-full transition-all duration-300"><a>Customers</a></li>
+                            <ul className="menu menu-horizontal space-x-2 text-primary-foreground rounded-box">
+                                <li className="hover:bg-primary-foreground rounded-lg transition-all duration-300"><a>Overview</a></li>
+                                <li className="hover:bg-primary-foreground rounded-lg transition-all duration-300"><a>Products</a></li>
+                                <li className="hover:bg-primary-foreground rounded-lg transition-all duration-300"><a>Customers</a></li>
                                 <UserNav />
                             </ul>
                         </div>
                     </div>
-                    
+
                     {/* Content */}
                     <div>
                         <Tabs defaultValue="overview" className="space-y-4 mb-4 mt-4 container">
