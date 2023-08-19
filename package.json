@@ -19,7 +19,6 @@
     "@radix-ui/react-select": "^1.2.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-tabs": "^1.0.4",
-    "@types/node": "20.4.8",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
@@ -42,6 +41,9 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "daisyui": "^3.5.1"
+    "@types/node": "^20.5.1",
+    "daisyui": "^3.5.1",
+    "prisma": "^5.1.1",
+    "ts-node": "^10.9.1"
   }
 }
