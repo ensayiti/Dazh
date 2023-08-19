@@ -27,14 +27,14 @@ export default function NavBar() {
                 <a className='inline-flex justify-center items-center text-primary-foreground text-xl font-semibold'><Code2 className='w-6 h-6 mr-2' />Dazh</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 space-x-2 bg-secondary-foreground text-primary-foreground rounded-box">
-                    <li>
+                <ul className="menu menu-horizontal px-1 space-x-2 text-primary-foreground">
+                    <li className='hover:bg-primary-foreground rounded-lg transition duration-300'>
                         <Link href='/about'>About</Link>
                     </li>
-                    <li>
+                    <li className='hover:bg-primary-foreground rounded-lg transition duration-300'>
                         <Link href='/feature'>Feature</Link>
                     </li>
-                    <li>
+                    <li className='hover:bg-primary-foreground rounded-lg transition duration-300'>
                         <Link href='/pricing'>Pricing</Link>
                     </li>
                 </ul>
